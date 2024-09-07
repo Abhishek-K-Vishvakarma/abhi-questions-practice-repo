@@ -74,9 +74,12 @@ function NUM(numeral){
   }
   return sum == numeral
 }
-let n_n = 153;
-if(NUM(n_n)){
+let num_n = 153;
+if(NUM(num_n)){
   console.log("This number is Armstrong!");
 }else{
   console.log("This number in not Armstrong!");
 }
+
+
+
