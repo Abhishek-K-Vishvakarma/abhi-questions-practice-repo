@@ -72,7 +72,7 @@ function NUM(numeral){
     let r = parseInt(dot[i]);
     sum = sum + Math.pow(r , com);
   }
-  return sum == numeral
+  return sum == numeral;
 }
 let num_n = 153;
 if(NUM(num_n)){
